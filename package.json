@@ -1,0 +1,29 @@
+{
+  "name": "playwright-test-task",
+  "version": "1.0.0",
+  "description": "Test Taks with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-Pelenskyi/Playwright-Test-Task.git"
+  },
+  "keywords": [
+    "playwright"
+  ],
+  "author": "Artur Pelenskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-Pelenskyi/Playwright-Test-Task/issues"
+  },
+  "homepage": "https://github.com/Artur-Pelenskyi/Playwright-Test-Task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
