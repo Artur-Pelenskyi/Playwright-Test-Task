@@ -13,6 +13,9 @@ on:
           - drivers-list.spec.ts
           - login.spec.ts
 
+env:
+  PASSWORD: ${{ github.event.inputs.password }}
+
 jobs:
   test:
     timeout-minutes: 60
@@ -34,5 +37,3 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-      env:
-        PASSWORD: ${{ github.event.inputs.password }}
